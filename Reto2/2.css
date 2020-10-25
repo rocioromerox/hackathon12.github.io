@@ -1,0 +1,38 @@
+.collapsible, .collapsible2, .collapsible3 {
+    position: relative;
+    display: inline-block;
+}
+
+.collapsible-button, .collapsible-button2, .collapsible-button3 {
+    background-color: gainsboro;
+    color: blue;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 800px;
+    height: 20px;
+    
+}
+
+.collapsible-content, .collapsible-content2, .collapsible-content3 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid gray;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
+}
+
+.collapsible-content, .collapsible-content2, .collapsible-content3 {
+    display: none;
+    
+}
+
+.show, .show2, .show3 {
+    display: block;
+}
